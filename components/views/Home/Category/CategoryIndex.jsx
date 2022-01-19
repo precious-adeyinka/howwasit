@@ -6,7 +6,7 @@ import Image from 'next/image'
 const CategoryIndex = () => {
     return (
         <div className="h-auto w-full flex flex-col items-center justify-start space-y-20 mb-20 pb-10">
-            <h3 className="font-bold text-3xl text-center w-10/12 md:w-full md:text-4xl">There's more than just <span className="text-blue-500">event</span> and stuff</h3>
+            <h3 className="font-bold text-3xl text-center w-10/12 md:w-full md:text-4xl">There&lsquo;s more than just <span className="text-blue-500">event</span> and stuff</h3>
             <div className="h-auto w-full flex flex-col md:flex-row items-center justify-center space-y-10 md:space-x-10 px-7 md:px-20">
                 {/* card */}
                 <div className="h-[30rem] w-full md:w-[33.333%] bg-blue-100 flex flex-col items-center justify-start spacey-5">

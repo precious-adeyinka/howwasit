@@ -24,7 +24,7 @@ const FooterIndex = () => {
                 </div>
                 <div className="h-[18rem] md:h-full w-full md:w-[80%] flex items-center justify-center">
                     <div className="h-full w-1/2 py-10 md:py-20 pl-2 md:pl-44 overflow-hidden position relative">
-                        <h5 className="font-bold md:font-medium text-sm md:text-lg -mt-5">Let's do this together</h5>
+                        <h5 className="font-bold md:font-medium text-sm md:text-lg -mt-5">Let&lsquo;s do this together</h5>
                         <ul className="m-0 p-0 mt-8 unstyled flex flex-col items-start justify-content space-y-2">
                             <li className="text-xs font-normal cursor-pointer hover:text-blue-500 hover:font-medium">For couriers</li>
                             <li className="text-xs font-normal cursor-pointer hover:text-blue-500 hover:font-medium">For restaurants</li>

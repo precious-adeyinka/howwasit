@@ -14,9 +14,9 @@ const LatestExperienceIndex = () => {
             {/* List */}
             <div className="h-full w-11/12 mt-10 grid grid-cols-1 md:grid-cols-5 gap-5">
                 {
-                    experiences.map(function (experience) {
+                    experiences.map(function (experience, id) {
                         return (
-                            <div className="h-[25rem] md:h-[21rem] w-10/12 md:w-full mx-auto overflow-x-auto bg-white rounded-lg shadow-2xl flex flex-col items-center justify-start 
+                            <div key={id} className="h-[25rem] md:h-[21rem] w-10/12 md:w-full mx-auto overflow-x-auto bg-white rounded-lg shadow-2xl flex flex-col items-center justify-start 
                             overflow-hidden transition duration-700 hover:-translate-y-1">
                                 <div className="h-[24rem] w-full bg-gray-50 flex items-center justify-center cursor-pointer position relative">
                                     <Image src="/assets/images/business.jpg" alt="" width="900" height="700" />

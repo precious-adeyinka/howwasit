@@ -1,0 +1,20 @@
+/*
+* 
+** LOGO
+*
+*/
+.logo {
+    color: #000;
+    position: relative;
+    font-weight: 700;
+}
+.logo::before {
+    content: "";
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+    background: #3b82f6;
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+}

@@ -1,0 +1,16 @@
+.bend {
+    transform: rotateX(20deg)!important;
+}
+.make3d {
+    perspective: 800px !important;
+    transform-style: preserve-3d !important;
+}
+.gradBg {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.89) 50%);
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .gradBg {
+        display: none!important;
+    }
+}

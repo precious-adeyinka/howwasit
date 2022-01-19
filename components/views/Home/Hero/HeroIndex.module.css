@@ -1,0 +1,30 @@
+.bgImg {
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.90), rgba(0,0,0,0.10)), url('../../../../public/assets/images/hall.jpg');
+    /* background: url('../../../../public/assets/images/emotion.jpg'); */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.link {
+    position: relative;
+    cursor: pointer;
+}
+.link::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: all 0.5s ease;
+}
+
+.link:hover::after {
+    width: 0%;
+}
+.fredokaone {
+    font-family: 'Fredoka One', cursive;
+}
